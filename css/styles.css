@@ -1,0 +1,172 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Crimson Text', serif;
+  color: #545454;
+}
+
+h1 {
+  margin: 100px auto 0;
+  font-family: 'Montez', cursive;
+  font-size: 100px;
+  font-weight: 100;
+  color: #3F72AF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #3F72AF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #112D4E;
+  margin-top: 25px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #545454;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #DBE2EF 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a:hover {
+color: #f9f7f7;
+}
+
+/**************************Class Selectors*****************************/
+.top-container {
+  background-color: #DBE2EF;
+  position: relative;
+  padding-top: 100px;
+  height: 728px;
+}
+
+/**************************Top Container*****************************/
+.subtitle {
+  margin: 0 auto auto;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #3F72AF;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 25%;
+  bottom: 220px;
+}
+
+.mountain {
+  position: relative;
+  margin-top: 100px;
+}
+
+/**************************Top Container*****************************/
+.middle-container {
+  padding-top: 100px;
+  background-color: #F9F7F7;
+  padding-bottom: 50px;
+}
+
+/**************************Middle Container*****************************/
+.profile {
+  margin: auto auto 100px;
+  width: 50%;
+}
+
+.skill-shaking {
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.skill-ship {
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.shaking {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.ship {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+  width: 50%;
+}
+
+.button-contact {
+  box-shadow: 1px 1px 4px 0px #000000;
+  background: linear-gradient(to bottom, #3F72AF 5%, #112D4E 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 50px auto 0;
+}
+
+.button-contact:hover {
+  background: linear-gradient(to bottom, #112D4E 5%, #3F72AF 100%);
+  background-color: #476e9e;
+}
+
+.button-contact:active {
+  position: relative;
+  top: 1px;
+}
+
+/**************************Middle Container*****************************/
+.bottom-container {
+  padding: 40px 0 10px;
+  background-color: #A5BFDF;
+}
+
+/**************************Botton Container*****************************/
+.footer-link {
+  text-decoration: none;
+  margin: 10px 20px;
+  color: #3F72AF;
+font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.copywritte {
+  font-size: 0.75rem;
+margin: 0;
+  font-weight: 100;
+  padding: 20px 0;
+  color: #f9f7f7;
+}
